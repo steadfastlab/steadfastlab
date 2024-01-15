@@ -182,6 +182,7 @@ nav{
     .nav-list li{
         list-style: none;
         padding: 10px;
+        margin: 15px;
     }
     .nav-list li a{
         text-decoration: none;
@@ -212,9 +213,11 @@ nav{
       .iconsContainer{
         width: 100%;
         display: flex;
-        position: absolute;
-        margin-top: 700PX;
+        margin-top: -700PX;
+        height: 150px;
+        z-index: 200000000000000000000;
         align-items: center;
+        transform: translateY(-30px);
         justify-content: center;
       }
       .firsContainer{
@@ -242,14 +245,16 @@ nav{
         margin: 10px;
       }
       .divided-icons p{
-        font-size: 18px;
+        
+        font-size: 14px;
         color: #fff;
         background-color: #a55000;
         padding: 0px 25px;
         border-radius: 5px;
         margin: 0px;
         padding: 10PX;
-        font-weight: 900;
+        font-weight: 700;
+    
       }
     .nav-menu-button{
         border: 2px solid #fff;
